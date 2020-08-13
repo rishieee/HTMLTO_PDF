@@ -39,6 +39,7 @@ public class ConvertHtmlToPdf {
 
 		document.open();
 
+		//CSSResolver cssResolver = XMLWorkerHelper.getInstance().getDefaultCssResolver(true);
 		CSSResolver cssResolver = XMLWorkerHelper.getInstance().getDefaultCssResolver(false);
 		FileRetrieve retrieve = new FileRetrieveImpl(CSSPath);
 		System.out.println(retrieve);
